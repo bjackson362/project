@@ -1,0 +1,71 @@
+/* Navbar */
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+.navbar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+/* Banner */ 
+.mission {
+    display: flex;
+    background-image: url(./product-images/anime-store-photo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: auto;
+    padding-top: 35px;
+}
+
+.mission .content {
+    background-color: white;
+    margin: auto;
+    width: 100%;
+}
+
+body {
+    text-align: center;
+    font-size: 22px;
+}
+
+.portfolio-products {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+/* Company Products */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.products img {
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.products span {
+    padding: 5px;
+    font-weight: bold;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
